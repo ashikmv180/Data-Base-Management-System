@@ -89,3 +89,7 @@ CREATE TABLE Fall22_S003_12_RIDESCHEDULE (
   PRIMARY KEY(RIDEID),
   FOREIGN KEY(BID) references Fall22_S003_12_BOOKING(BID)
 		on delete cascade );
+
+
+
+#this is the Phase 4 sql code
